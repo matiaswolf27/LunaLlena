@@ -34,13 +34,6 @@ html{
     padding: 2rem 0;
 }
 
-.customer-support{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    font-size: 16px;  /*Tamaño del Soporte al Cliente*/
-}
-
 .customer-support i{
     font-size: 3.3rem;
 }
