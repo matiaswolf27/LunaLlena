@@ -1,235 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!--TITULO-->
-    <title>Luna Llena Store</title>
-<!--Citación de CSS-->
-    <link rel="stylesheet" href="styles.css">
-<!--Citación de la página de Iconos-->
-    <script src="https://kit.fontawesome.com/e56453f35d.js" crossorigin="anonymous"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Luna Llena Store</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="container-logo">
+						<i class="fa-solid fa-moon"></i>
+						<h1 class="logo"><a href="/">Luna Llena Store</a></h1>
+					</div>
 
-</head>
-<body>
-    <header>
-        <div class="container-hero">
-            <div
-                class="container hero">
-                <!--LOGO/ICONO/H1-->
-                <div class="container-logo">
-                    <i class="fa-solid fa-moon"></i>
-                     <h1 class="logo"><a href="---">Luna Llena Store</a></h1>
-                </div>
-                <!--USUARIO/CARRITO-->
-                <div class="container-user">
-                    <i class="fa-solid fa-user"></i>
-                    <i class="fa-solid fa-basket-shopping"></i>
-                    <div class="content-shopping-cart">
-                        <span class="text">Carrito</span>
-                        <span class="number">(0)</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--BARRA DE NAVEGACIÓN-->
-        <div class="container-navbar">
-            <nav class="navbar container">
-                <i class="fa-solid fa-bars"></i>
-                <ul class="menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Mates</a></li>
-                    <li><a href="#">Cuencos</a></li>
-                    <li><a href="#">Ceramica</a></li>
-                    <li><a href="#">Accesorios</a></li>
-                    <li><a href="#">Otros</a></li>
-                </ul>
-                <!--BUSCAR/NAVEGACIÓN-->
-                <form class="search-form">
-                    <input type="search" placeholder="Buscar..." />
-                    <button class="btn-search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </form>    
+					<div class="container-user">
+						<i class="fa-solid fa-user"></i>
+						<i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</div>
+				</div>
+			</div>
 
-            </nav>
-        </div>
-    </header>
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Mates</a></li>
+						<li><a href="#">Cuencos</a></li>
+						<li><a href="#">Ceramica</a></li>
+						<li><a href="#">Accesorios</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
 
-    <section class="banner">
-        <div class="content-banner">
-            <p>GUILLLLEEEE</p>
-            <h2>Mates de Algarrobo <br> Pintados a Mano</h2>
-            <a href="#">COMPRAR AHORA</a>
-        </div>
-    </section>
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
 
-    <!--TODA LA PAGINA-->
-    <main class="main-content">
-        <section class="container container-feature">
-            <div class="card-feature">
-                <i class="fa-solid fa-motorcycle"></i>
-                <div class="feature-content">
-                    <span>Envios.</span>
-                    <p>Consulta por los costos de envios a tu zona</p>
-                </div>
-            </div>
-            <div class="card-feature">
-                <i class="fa-solid fa-headset"></i>
-                <div class="feature-content">
-                    <span>Atención al Cliente.</span>
-                    <p>Llamanos o enviá WhatsApp al 1162873802</p>
-                </div>
-            </div>
-            <div class="card-feature">
-                <i class="fa-solid fa-money-check-dollar"></i>
-                <div class="feature-content">
-                    <span>Todos los medios de Pago.</span>
-                    <p>Selecciona el medio</p>
-                </div>
-            </div>
-            <div class="card-feature">
-                <i class="fa-solid fa-money-bill"></i>
-                <div class="feature-content">
-                    <span>10%OFF Pago en Efectivo.</span>
-                    <p>En productos seleccionados de la Tienda.</p>
-                </div>
-            </div>
+		<section class="banner">
+			<div class="content-banner">
+				<p>Productos de Calidad</p>
+				<h2>100% Artesanales <br />Hechos a Mano</h2>
+				<a href="#">Comprar ahora</a>
+			</div>
+		</section>
 
-        </section>
+		<main class="main-content">
+			<section class="container container-features">
+				<div class="card-feature">
+					<i class="fa-solid fa-motorcycle"></i>
+					<div class="feature-content">
+						<span>Realizamos envios</span>
+						<p>Consulta por el costo a tu zona</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-wallet"></i>
+					<div class="feature-content">
+						<span>Elegí tu medio de pago</span>
+						<p>Aceptamos todos los medios de pago</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-gift"></i>
+					<div class="feature-content">
+						<span>Tarjeta regalo especial</span>
+						<p>Ofrece bonos especiales con regalo</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-headset"></i>
+					<div class="feature-content">
+						<span>Servicio al cliente 24/7</span>
+						<p>Envía WhatsApp al 11 6287-3802</p>
+					</div>
+				</div>
+			</section>
 
-        <section class="container top-categories">
-            <h1 class="heading-1">DESTACADOS</h1>
-            <div class="container-categories">
-                    <div class="card-catecory category-mates">
-                        <p>Mates Varios</p>
-                        <span>Ver Más</span> 
-                    </div>
-                    <div class="card-catecory category-ceramica">
-                        <p>Ceramica al Horno</p>
-                        <span>Ver Más</span>
-                    </div>
-                    <div class="card-catecory category-accesorios">
-                        <p>Varios Otros</p>
-                        <span>Ver Más</span>
-                    </div>
-            </div>
-        </section>
+			<section class="container top-categories">
+				<h1 class="heading-1">Mejores Categorías</h1>
+				<div class="container-categories">
+					<div class="card-category category-mates">
+						<p>Mates</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-ceramicas">
+						<p>Ceramicas</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-cuencos">
+						<p>Cuencos</p>
+						<span>Ver más</span>
+					</div>
+				</div>
+			</section>
 
-        <section class="container specials">
-            <h1 class="heading-1">Especiales</h1>
+			<section class="container top-products">
+				<h1 class="heading-1">Mejores Productos</h1>
 
-            <div class="container-products">
-                <!-- Producto 1 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="/img/mate7.jpg" alt="mate7">
-                        <span class="discount">-13%</span>
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <h3>MATE FRIDA</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$7000.00 <span>$9500.00</span></p>
-                    </div>
-                </div>
-                <!-- Producto 2 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/mate8.jpg" alt="mate8"/>
-                        <span class="discount">-22%</span>
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <h3>MATE INDEPENDIENTE</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$7000.00 <span>$9500.00</span></p>
-                    </div>
-                </div>
-                <!-- PRODUCTO 3  -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/mate9.jpg" alt="mate9">
-                        <span class="discount">-30%</span>
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="content-card-product">
-                        <div class="stars">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h3>MATE FRASE</h3>
-                        <span class="add-cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                        </span>
-                        <p class="price">$7000.00 <span>$9500.00</span></p>
-                    </div>
-                </div>
-                <!-- PRODUCTO 4 -->
-                <div class="card-product">
-                    <div class="container-img">
-                        <img src="img/mate3.jpg" alt="mate3">
-                        <div class="button-group">
-                            <span>
-                                <i class="fa-regular fa-eye"></i>
-                            </span>
-                            <span>
-                                <i class="fa-regular fa-heart"></i>
-                            </span>
-                            <span>
-                                <i class="fa-solid fa-code-compare"></i>
-                            </span>
-                        </div>
-                        <div class="content-card-product"></div>
+				<div class="container-options">
+					<span class="active">Destacados</span>
+					<span>Más recientes</span>
+					<span>Mejores Vendidos</span>
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/mate1.jpg" alt="mate" />
+							<span class="discount">-15%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Mate Floral</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$7.800 <span>$8.950</span></p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/mate2.jpg"
+								alt="mateee.jpg"
+							/>
+							<span class="discount">-22%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Mate Mariposa</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$8.950 <span>$10.500</span></p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/mate8.jpg"
+								alt="MateRojo"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
 							<div class="stars">
 								<i class="fa-solid fa-star"></i>
 								<i class="fa-solid fa-star"></i>
@@ -237,53 +214,433 @@
 								<i class="fa-solid fa-star"></i>
 								<i class="fa-solid fa-star"></i>
 							</div>
-							<h3>MATES</h3>
+							<h3>Mate Independiente</h3>
 							<span class="add-cart">
 								<i class="fa-solid fa-basket-shopping"></i>
 							</span>
-							<p class="price">$7000.00</p>
+							<p class="price">$9.500</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/mate9.jpg" alt="mateceramica" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Mate Energias</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.60</p>
 						</div>
 					</div>
 				</div>
-        <section class="gallery">
-            <img 
-                src="img/mate1.jpg" 
-                alt="1"
-                class="gallery-img-1"
-            /><img
-                src="img/mate2.jpg"
-                alt="2"
-                class="gallery-img-2"
-            /><img
-                src="img/mate3.jpg"
-                alt="3"
-                class="gallery-img-3"
-            /><img
-                src="img/mate4.jpg"
-                alt="4"
-                class="gallery-img-4"
-            /><img
-                src="img/mate5.jpg"
-                alt="5"
-                class="gallery-img-5"
-            />                  
-        </section>
+			</section>
 
-        <section class="container specials">
-                <h1 class="heading-1">Especiales</h1>
+			<section class="gallery">
+				<img
+					src="img/mate3.jpg"
+					alt="Gallery Img1"
+					class="gallery-img-1"
+				/><img
+					src="img/mate4.jpg"
+					alt="Gallery Img2"
+					class="gallery-img-2"
+				/><img
+					src="img/mate5.jpg"
+					alt="Gallery Img3"
+					class="gallery-img-3"
+				/><img
+					src="img/mate6.jpg"
+					alt="Gallery Img4"
+					class="gallery-img-4"
+				/><img
+					src="img/mate7.jpg"
+					alt="Gallery Img5"
+					class="gallery-img-5"
+				/>
+			</section>
 
-                <div class="container-products">
-                    <!--PRODUCTO 1-->
+			<section class="container specials">
+				<h1 class="heading-1">Especiales</h1>
 
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/mate8.jpg" alt="Cafe Irish" />
+							<span class="discount">-13%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Cafe Irish</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$4.60 <span>$5.30</span></p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/mate2.jpg"
+								alt="Cafe incafe-ingles.jpg"
+							/>
+							<span class="discount">-22%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Cafe Inglés</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.70 <span>$7.30</span></p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/mate9.jpg" alt="Cafe Viena" />
+							<span class="discount">-30%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>Cafe Viena</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$3.85 <span>$5.50</span></p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/mate7.jpg" alt="Cafe Liqueurs" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Cafe Liqueurs</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.60</p>
+						</div>
+					</div>
+				</div>
+			</section>
+            <!-- ********************************** -->
+            <!--            seccion reseñas       -->
+            <!-- ********************************** -->
+            <section class="reviews">
+                <div class="container">
+                  <h2 class="heading-1">Reseñas de nuestros clientes</h2>
+                <div class="reviews-grid">
+                <!-- Review 1 -->
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="review-text">
+                    "La que me entregó el mate tenia cara de tonta, voy a volver a comprar pero por favor que venga otra persona!"
+                    </p>
+                    <span class="review-author">- Ana G.</span>
                 </div>
+            <!-- Review 2 -->
+            <div class="review-card">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p class="review-text">
+                    "Muy Caros!"
+                </p>
+                <span class="review-author">- Carlos M.</span>
+            </div>
+                <!-- Review 3 -->
+                <div class="review-card">
+                    <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    </div>
+                        <p class="review-text">
+                        "Los productos están bien, pero me vino una bombilla q no tenia nada q ver con el color del mate."
+                        </p>
+                        <span class="review-author">- Juan P.</span>
+                </div>
+            </div>
 
-        </section>
+            <!-- Review Form -->
+            <div class="review-form">
+                <h3 class="heading-1">Comparte tu experiencia</h3>
+                <form>
+                    <input type="text" placeholder="Tu nombre" required>
+                    <textarea placeholder="Escribe tu reseña" rows="4" required></textarea>
+                    <button type="submit">Enviar Reseña</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    </main>
-    <footer>
-        <p><a href="contacto.html">contacto</a></p>
-        <p>MAtias Wolf © 2024 </p>
-    </footer>
+            
 
-</body>
+			<section class="container blogs">
+				<h1 class="heading-1">Últimos Blogs</h1>
+
+				<div class="container-blogs">
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/feriafondo.jpg" alt="Imagen Blog 1" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>¿Quién soy?</h3>
+							<span>10 Octubre 2024</span>
+							<p>
+								Mi nombre es Guillermina, empecé este emprendimiento hace 4 años cuando
+                                tenía 15 años de edad. Es algo que me gusta mucho y me da tranquilidad
+                                a la vez de felicidad al enviar un producto y que el cliente quede contento
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/feriafondo.jpg" alt="Imagen Blog 2" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Lorem, ipsum dolor sit</h3>
+							<span>15 Noviembre 2024</span>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing
+								elit. Iste, molestiae! Ratione et, dolore ipsum
+								quaerat iure illum reprehenderit non maxime amet dolor
+								voluptas facilis corporis, consequatur eius est sunt
+								suscipit?
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/feriafondo.jpg" alt="Imagen Blog 3" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Lorem, ipsum dolor sit</h3>
+							<span>15 Noviembre 2024</span>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing
+								elit. Iste, molestiae! Ratione et, dolore ipsum
+								quaerat iure illum reprehenderit non maxime amet dolor
+								voluptas facilis corporis, consequatur eius est sunt
+								suscipit?
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Blas Parera 2196 - Quilmes Oeste
+							</li>
+							<li>Teléfono: 11 6287-3802</li>
+							<li>Email: wolfgrupochance@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscribite para que te informemos sobre las próximas ferias.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Matías R. Wolf - Reservado los derechos de autor. &copy; 2024
+					</p>
+
+					<img src="img/payment.png" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
